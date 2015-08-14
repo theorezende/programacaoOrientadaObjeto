@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Horária Matheus Ramos</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+          /* Base da tabela */
+          body{
+            font-family: 'Open Sans', sans-serif;
+          }
+          table{
+            max-width: 100%;
+            background-color: transparent;
+            border-collapse: collapse;
+            border-spacing: 0;
+          }
+
+          .tabela {
+            border-bottom: #999999 solid 1px;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+
+          .tabela th,
+          .tabela td {
+            border-right: #999999 solid 1px;
+            font-size: 12px;
+            padding: 8px;
+            line-height: 20px;
+            text-align: left;
+            vertical-align: middle;
+          }
+
+          .tabela td:last-child {
+             border-right: 0;
+          }
+
+          .tabela thead th {
+            font-weight: normal;
+            background-color: #005dab;
+            color: #fff;
+            font-size: 15px;
+          }
+
+          .tabela tbody > tr:nth-child(odd) > td,
+          .tabela tbody > tr:nth-child(odd) > th {
+            background-color: #f8f8f8;
+          }
+          /* Estilização das cores dos campos */
+          .feita{
+            background-color: rgba(62, 210, 79, 0.57)!important;
+          }
+          .dispensado{
+            background-color: rgba(72, 129, 243, 0.53)!important;
+          }
+          .cursando{
+                background-color: rgba(255, 246, 0, 0.65)!important;
+          }
+
+        /* Small Sizes */
+        @media (max-width: 767px) { 
+          /* Responsive tabela */
+          .tabela-responsive {
+            display: block;
+            position: relative;
+            width: 100%;
+          }
+
+          .tabela-responsive thead,
+          .tabela-responsive tbody,
+          .tabela-responsive th,
+          .tabela-responsive td,
+          .tabela-responsive tr {
+            display: block;
+          }
+          .tabela-responsive td,
+          .tabela-responsive th {
+            height: 35px;
+          }
+
+          .tabela-responsive thead {
+            float: left;
+          }
+
+          .tabela-responsive tbody {
+            width: auto;
+            position: relative;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            white-space: nowrap;
+          }
+
+          .tabela-responsive tbody tr {
+            display: inline-block;
+          }
+          .tabela td:last-child {
+             border-right: #999999 solid 1px;
+          }
+        }
+</style>
+</head>
+<body>
+<h3>Grade Matheus Rezende Ramos</h3>
+<table class="tabela tabela-responsive">
+  <thead>
+    <tr>
+        <th>1º Semestre</th>
+        <th>2º Semestre</th>
+        <th>3º Semestre</th>
+        <th>4º Semestre</th>
+        <th>5º Semestre</th>
+        <th>6º Semestre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="feita">ADMINISTRAÇÃO GERAL</td>
+        <td class="feita">CÁLCULO</td>
+        <td class="feita">ECONOMIA E FINANÇAS</td>
+        <td class="cursando">BANCO DE DADOS</td>
+        <td class="dispensado">INGLÊS V</td>
+        <td>EMPREENDEDORISMO</td>
+    </tr>
+    <tr> 
+        <td class="feita">ALGORITMOS E LÓGICA DE PROGRAMAÇÃO</td>
+        <td class="feita">COMUNICAÇÃO EXPRESSAO</td>
+        <td class="feita">ENGENHARIA DE SOFTWARE II</td>
+        <td class="cursando">ENGENHARIA DE SOFTWARE III</td>
+        <td>LABORATÓRIO DE BANCO DE DADOS</td>
+        <td>ÉTICA E RESPONSABILIDADE PROFISSIONAL</td>
+    </tr>
+    <tr>
+        <td class="feita">ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES</td>
+        <td class="feita">CONTABILIDADE</td>
+        <td class="feita">ESTATÍSTICA APLICADA</td>
+        <td class="dispensado">INGLÊS IV</td>
+        <td>LABORATÓRIO DE ENGENHARIA DE SOFTWARE</td>
+        <td class="cursando">GESTÃO DE EQUIPES</td>
+    </tr>
+    <tr>
+        <td class="dispensado">INGLÊS I</td>
+        <td class="feita">ENGENHARIA DE SOFTWARE I</td>
+        <td class="feita">ESTRUTURA DE DADOS</td>
+        <td class="cursando">LINGUAGEM DE PROGRAMAÇÃO IV</td>
+        <td>PROGRAMAÇÃO LINEAR E APLICAÇÕES</td>
+        <td>GESTÃO DE PROJETOS</td>
+    </tr>
+    <tr>
+        <td class="feita">LABORATÓRIO DE HARDWARE</td>
+        <td class="dispensado">INGLÊS II</td>
+        <td class="dispensado">INGLÊS III</td>
+        <td class="cursando">METODOLOGIA DA PESQUISA CIENTÍFICO-TECNOLÓGICA</td>
+        <td>PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS</td>
+        <td>GESTÃO E GOVERNANÇA DE TECNOLOGIA DA INFORMAÇÃO</td>
+    </tr>
+    <tr>
+        <td class="feita">MATEMÁTICA DISCRETA</td>
+        <td class="feita">LINGUAGEM DE PROGRAMAÇÃO</td>
+        <td class="feita">INTERAÇÃO HUMANO COMPUTADOR</td>
+        <td class="cursando">PROGRAMAÇÃO ORIENTADA A OBJETOS</td>
+        <td>REDES DE COMPUTADORES</td>
+        <td class="dispensado">INGLÊS VI</td>
+    </tr>
+    <tr>
+        <td class="feita">PROGRAMAÇÃO EM MICROINFORMÁTICA</td>
+        <td class="feita">SISTEMAS DE INFORMAÇÃO</td>
+        <td class="feita">SISTEMAS OPERACIONAIS I</td>
+        <td class="cursando">SISTEMAS OPERACIONAIS II</td>
+        <td class="feita">SEGURANÇA DA INFORMAÇÃO</td>
+        <td>INTELIGÊNCIA ARTIFICIAL</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td class="feita">SOCIEDADE E TECNOLOGIA</td>
+        <td>-</td>
+        <td>TRABALHO DE GRADUAÇÃO I</td>
+        <td>TÓPICOS ESPECIAIS EM INFORMÁTICA</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>TRABALHO DE GRADUAÇÃO II</td>
+    </tr>
+
+  </tbody>
+</table>
+<div class="legenda">
+<h3>Legenda da tabela</h3>
+<p><span class="feita">Verde</span> = concluido | <span class="dispensado">Azul</span> = dispensado | <span class="cursando">Amarelo</span> = cursando | Branco = não cursou</p>
+</div>
+</body>
+</html>
